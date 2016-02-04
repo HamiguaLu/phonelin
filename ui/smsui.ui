@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>smsUI</class>
+ <widget class="QWidget" name="smsUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>611</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>20</y>
+     <width>115</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>New SMS</string>
+   </property>
+   <property name="icon">
+    <iconset resource="phonelin_res.qrc">
+     <normaloff>:/icon/icon/new_sms.png</normaloff>:/icon/icon/new_sms.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="phonelin_res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
