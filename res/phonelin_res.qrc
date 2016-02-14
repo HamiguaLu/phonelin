@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/add_small.png</file>
+        <file>icon/android_offline.png</file>
+        <file>icon/android_online.png</file>
+        <file>icon/app_icon.png</file>
+        <file>icon/call_icon.png</file>
+        <file>icon/connect_samll.png</file>
+        <file>icon/contacts_72px_558383_easyicon.net.png</file>
+        <file>icon/del_small.png</file>
+        <file>icon/device_icon.png</file>
+        <file>icon/file_icon.png</file>
+        <file>icon/modify_small.png</file>
+        <file>icon/ok_samll.png</file>
+        <file>icon/pic_icon.png</file>
+        <file>icon/setting_icon.png</file>
+        <file>icon/setting_samll.png</file>
+        <file>icon/sms_icon.png</file>
+        <file>icon/trash_small.png</file>
+        <file>icon/Zoom_In_small.net.png</file>
+        <file>icon/Zoom_Out_small.net.png</file>
+        <file>icon/incoming_call.png</file>
+        <file>icon/missed_call.png</file>
+        <file>icon/new_sms.png</file>
+        <file>icon/next.png</file>
+        <file>icon/outgoing_call.png</file>
+        <file>icon/pre.png</file>
+    </qresource>
+</RCC>
