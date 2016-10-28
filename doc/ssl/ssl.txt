@@ -1,0 +1,21 @@
+
+
+1. Generate private key for CA
+openssl genrsa  -des3 -out phonelin_rootca.key 2048
+#password: !p@h@o#n$e!
+
+2. 生成自签名CA根证书
+openssl req -new -x509 -days 3650 -key phonelin_rootca.key -out phonelin_rootca.cert
+#openssl x509 -noout -text -in zte_stb_rootca.cert
+
+
+java -Djava.ext.dirs=E:\\Temp\\AndroidDemo\\phonelin\\doc
+
+keytool -import -v -trustcacerts -alias 0 -file phonelin_rootca.cert -keystore plKeyStore.bks -storetype BKS -provider org.bouncycastle.jce.provider.BouncyCastleProvider
+#pass   !m@o#b%
+
+
+
+
+
+http://stackoverflow.com/questions/4065379/how-to-create-a-bks-bouncycastle-format-java-keystore-that-contains-a-client-c/10026598#10026598

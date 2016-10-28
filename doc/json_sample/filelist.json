@@ -1,0 +1,357 @@
+{
+    "data": 
+	[
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": true,
+			"isDir": true,
+			"lastModified": 1464699171000,
+			"name": "sdcard",
+			"size": 4096
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123880000,
+			"name": "storage",
+			"size": 100
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123872000,
+			"name": "mnt",
+			"size": 200
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123872000,
+			"name": "config",
+			"size": 0
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1464699082000,
+			"name": "cache",
+			"size": 4096
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123872000,
+			"name": "acct",
+			"size": 0
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1461117646000,
+			"name": "vendor",
+			"size": 4096
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123871000,
+			"name": "d",
+			"size": 0
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1461118443000,
+			"name": "etc",
+			"size": 4096
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "ueventd.rc",
+			"size": 4587
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "ueventd.ranchu.rc",
+			"size": 272
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "ueventd.goldfish.rc",
+			"size": 323
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 0,
+			"name": "system",
+			"size": 4096
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123871000,
+			"name": "sys",
+			"size": 0
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "service_contexts",
+			"size": 9769
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "sepolicy",
+			"size": 142909
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "selinux_version",
+			"size": 78
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "seapp_contexts",
+			"size": 596
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 0,
+			"name": "sbin",
+			"size": 0
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "property_contexts",
+			"size": 3420
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123871000,
+			"name": "proc",
+			"size": 0
+		},
+		{
+			"canExecute": true,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 0,
+			"name": "oem",
+			"size": 0
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.zygote64_32.rc",
+			"size": 531
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.zygote32.rc",
+			"size": 301
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.usb.rc",
+			"size": 3885
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.trace.rc",
+			"size": 1921
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.rc",
+			"size": 25026
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.ranchu.rc",
+			"size": 1909
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.goldfish.rc",
+			"size": 2465
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init.environ.rc",
+			"size": 852
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "init",
+			"size": 0
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "fstab.ranchu",
+			"size": 968
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "fstab.goldfish",
+			"size": 943
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "file_contexts",
+			"size": 14792
+		},
+		{
+			"canExecute": false,
+			"canRead": true,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "default.prop",
+			"size": 551
+		},
+		{
+			"canExecute": true,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1464699123000,
+			"name": "data",
+			"size": 4096
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": false,
+			"lastModified": 0,
+			"name": "charger",
+			"size": 0
+		},
+		{
+			"canExecute": false,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1454572641000,
+			"name": "root",
+			"size": 0
+		},
+		{
+			"canExecute": true,
+			"canRead": false,
+			"canWrite": false,
+			"isDir": true,
+			"lastModified": 1465123872000,
+			"name": "dev",
+			"size": 2400
+		}
+	],
+    "path": "/"
+}

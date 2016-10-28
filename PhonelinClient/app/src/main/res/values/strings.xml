@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhoneLin</string>
+    <string name="sBtnExitCaption">Exit</string>
+    <string name="Backup">Backup</string>
+    <string name="Restore">Restore</string>
+    <string name="EnableLog">Staring record log</string>
+	<string name="DisableLog">Stop record log</string>
+	<string name="QuitApp">Quit</string>
+	<string name="Options">Options</string>
+	<string name="StopSrv">Stop service</string>
+	<string name="SendLog">Send log to mobitnt</string>
+	<string name="EnterMail">Please Enter your email</string>
+	<string name="BugDescription">what kind of problem?</string>
+	<string name="BtnOK">OK</string>
+    <string name="smallTips">Enable \'WIFI\' on device</string>
+    <string name="SecurityCode"></string>
+    <string name="btnNetwork"></string>
+    <string name="imgDesc">SyncICON</string>
+    <string name="DeviceIP">Device IP</string>
+	<string name="AdText">Manage android from WIFI</string>
+	<string name="BtnCancel">Cancel</string>
+</resources>

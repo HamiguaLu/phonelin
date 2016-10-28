@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:Android="http://schemas.android.com/tools"
+    android:background="#b7d396">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/MainScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/imageSync"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/imgDesc"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sync" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageSync"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/txtTips"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:layout_below="@+id/txtTitle"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center_horizontal"
+                android:text="@string/smallTips"
+                android:textAlignment="center"
+                Android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                                android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+
+            android:layout_below="@+id/txtTips"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/botton_selector"
+            android:text="Scan barcode"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

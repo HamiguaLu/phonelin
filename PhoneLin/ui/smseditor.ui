@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SmsEditorView</class>
+ <widget class="QWidget" name="SmsEditorView">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SMS editor</string>
+  </property>
+  <widget class="QTextEdit" name="recipients">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>321</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="content">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>461</width>
+     <height>201</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Recipients</string>
+   </property>
+   <property name="buddy">
+    <cstring>recipients</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Content</string>
+   </property>
+   <property name="buddy">
+    <cstring>content</cstring>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSend">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>320</y>
+     <width>115</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/phonelin_res.qrc">
+     <normaloff>:/icon/icon/new_sms.png</normaloff>:/icon/icon/new_sms.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnChooser">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>40</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/phonelin_res.qrc">
+     <normaloff>:/icon/icon/ok_samll.png</normaloff>:/icon/icon/ok_samll.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res/phonelin_res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+
+User-agent: *	
+Disallow: /Fake-Call/
+Disallow: /smf2/
+Disallow: /SMS-Outlook/
+Disallow: /YaSyncGuide/
+Disallow: /YaSync/
+
+
+Sitemap:http://www.mobitnt.com/sitemap.xml

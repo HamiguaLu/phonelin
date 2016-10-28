@@ -1,0 +1,218 @@
+
+.clear{height:0;line-height:0;font-size:0;clear:both;overflow:hidden;display:block;}
+.f_left{float:left;}
+.f_right{float:right;}
+
+a {outline:none;}
+
+body {font-family: Tahoma,Arial; background-color: rgb(255, 255, 255);color:#656565;}
+.main {margin: 0px auto; width:1024px;}
+
+.header {margin: 0px auto; width: 960px;}
+.menu {float:right;margin-top:30px;}
+.menu li {margin:10px; float:left;margin-bottom:10px;}
+.menu li a {color:#CF2783;width:100px;text-align:center; }
+.menu li a:hover   	{padding-bottom: 10px;border-bottom-color: #008000; border-bottom-width: 2px; border-bottom-style: solid;font-weight: bold;}
+.menu li a.current {padding-bottom: 8px;border-bottom-color: #28B6F9; border-bottom-width: 2px; border-bottom-style: solid;font-weight: bold; }
+
+.divLine {height:1px;width:100%;background-color:#BEBEBE;line-height:1px;clear:both;display:block;overflow:hidden;margin:3px;}
+
+.logo_container {margin-top:20px;}
+
+
+#banner-container {margin-left:0px;float:left;}
+#banner-container-reply {margin-left:100px;float:left;width:200px;}
+
+.banner-wrapper {margin-left:120px;}
+
+.screenshot {display: block;margin: 0 auto;}
+
+.slogan {margin-left:auto;margin-top:30px;margin-bottom:5px;text-align:center;font-size:35px; width:100%;}
+.slogan2 {margin-left:auto;margin-top:3px;margin-bottom:30px;text-align:center;font-size:25px; color:#424242;width:100%; }
+.slogan3 {margin-left:200px;margin-top:3px;margin-bottom:30px;text-align:center;font-size:30px; color:#424242;width:700px; }
+.slogan4 { color:#3FBA09;font-weight: bold;margin-top:10px;font-size:25px;}
+
+.m_Ad {margin:0 ,auto;}
+.m_Ad .slogan {margin-left:auto;margin-top:10px;margin-bottom:5px;text-align:center;font-size:25px; width:100%;}
+.m_Ad .slogan2 {margin-left:auto;margin-top:3px;margin-bottom:5px;text-align:center;font-size:18px; color:#424242;width:100%; }
+.m_callAction {margin:0 ,auto;padding-left:30px;}
+.m_callAction a {display:inline-block;width:200px;height:30px;line-height:30px;text-align: center;font-size:15px;color:white;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #66B82F;margin:20px;}
+
+.ProductDiv {width:350px;float:left;margin:5px;padding:5px;}
+
+.CallAction {margin-top:5px;float:right;}
+.CallAction li {margin-bottom:5px;margin-top:5px;margin-left:15px;}
+.CallAction  a {display:inline-block;width:200px;height:40px;line-height:40px;text-align: center;font-size:18px;color:white;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #66B82F;margin-top:10px;}
+
+.CallAction a:hover {color:white;text-decoration: none;background-color:green;}
+.CallAction a.BuyBtn {background-color: orange;}
+.CallAction a.BuyBtn:hover {background-color: #2A9EB5;}
+.CallAction a.ShareBtn {display:inline;width:46px;height:46px;background-color: #FFFFDF;}
+.CallAction a.ShareBtn:hover {}
+.signupmail {margin-top:40px;width:200px;padding:5px;background-color: #FFFFDF;}
+.signupmail p {line-height:20px;font-size:13px;}
+.signupmail p  a{line-height:20px;font-size:13px;background-color: #FFFFDF;color:black;display:inline;color:blue;}
+.signupmail p  a:hover {color:Green;text-decoration: none;background-color: #FFFFDF;}
+.signupmail4Notes {margin-top:40px;width:200px;background-color:#FFFFDF;padding:5px;}
+
+.CallActionReply {margin-top:4px;float:right;margin-right:100px;}
+.CallActionReply li {margin-bottom:10px;margin-top:20px;margin-left:15px;}
+.CallActionReply  a {display:inline-block;width:200px;height:40px;line-height:40px;text-align: center;font-size:18px;color:white;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #66B82F;margin-top:10px;}
+.CallActionReply a:hover {color:white;text-decoration: none;background-color:green;}
+.CallActionReply a.BuyBtn {background-color: orange;}
+.CallActionReply a.BuyBtn:hover {background-color: #2A9EB5;}
+#mailAddr{width:190px;height:25px;line-height:25px;font-size:15px;padding-left:5px;}
+.smallBTN {display:inline-block;width:70px;height:25px;line-height:25px;text-align: center;font-size:15px;color:white;
+-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;background-color: #66B82F;margin-top:10px;}
+.smallBTN:hover{background-color: green;}
+#signuptips {color:red;}
+
+.voteBTN {display:inline-block;width:70px;height:25px;line-height:25px;text-align: center;font-size:15px;color:white;
+-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;background-color: yellow;margin-top:10px;}
+.voteBTN:hover{color: green;}
+
+
+.subMenu {float:left;}
+.subMenu li {float:left;margin:2px;font-weight: bold;}
+.subMenu li  a {
+			background-color: #66CCFF;width:150px;height:35px;text-align: center; line-height: 35px; font-size: 16px;
+			color: rgb(36, 36, 36);display:inline-block;
+			-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+		}
+.subMenu li  a:hover {background-color: #FFFFDF;}
+.subMenu li  a.current {background-color: #FFFFDF;}
+
+.workplatform{margin-top:30px;width:650px;height:40px;line-height:40px;font-size:18px;border:solid 0px green;padding:0px;float:right;color:green}
+.OtherMailClient {margin-top:30px;width:600px;height:40px;line-height:40px;font-size:18px;border:solid 0px green;padding:0px;float:right;color:#A1A3AA}
+.OtherMailClient a {color: green;}
+.featurelist {width:350px;line-height:40px;font-size:18px;}
+.featurelist a {color: #636985;}
+.mailClientImg{display:inline-block;width:32p;height:32px;}
+
+.guideDiv {margin:10px;font-size:17px;width:600px;}
+.guideDiv h1 {font-size:27px; height:30px; line-height: 30px;margin:5px;}
+.guideDiv h2 {font-size:17px; }
+.guideDiv h3 {font-weight:bold;margin:5px;color:#333333;}
+.guideArea1{margin:10px;margin-bottom:30px;padding:5px;width:600px;}
+.guideArea1 h1 {text-align:left;font-size:20px;width:590px;color:#0DA8E5;}
+.guideArea1 p{padding-left:20px;margin:10px;}
+.guideArea1 h3{text-align:center;color:#005AD5;}
+.guideArea1 a{color:green;}
+.guideArea1 .psubStep {padding-left:26px;color:green;}
+
+.subDivM {margin:10px;font-size:17px;}
+
+.subDiv {margin:10px;font-size:17px;width:1000px;}
+.subDiv h1 {font-size:27px; height:30px; line-height: 30px;margin:5px;}
+.subDiv h2 {font-size:17px; }
+.subDiv h3 {text-align:center;font-weight:bold;margin:5px;color:#333333;}
+.subDiv li {padding: 0px; margin-left: 1px;margin:20px;}
+.subDiv li > a {height: 40px;line-height: 40px;display: inline-block;text-align: center;font-size: 20px;color:white;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #F87500;}
+.subDiv li :hover {color:white;text-decoration: none;background-color:#F79646;}
+.subDiv a {color:#0D7AC9;}
+.leftContentDiv {float:left;width:680px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;margin:15px;border:solid 1px #43C4F9;}
+.leftContentDiv h2 {margin:3px;font-size:20px;color:#613893;margin-top:15px;}
+.leftContentDiv a {font-size:16px;margin:8px;padding-left:10px;color:#0077CC;display:block;}
+.leftContentDiv a:hover{color:green;}
+.leftContentDiv p {margin:5px;}
+.attentionTxt {line-height:20px;color:green;font-weight:bold;margin:20px;padding:5px;}
+
+.rightMenuDiv {float:right;width:280px;margin-top:15px;}
+.rightContentDiv {float:right;width:480px;margin-top:15px;}
+.GuideMenuItem {padding:15px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;margin:2px;margin-top:15px;margin-bottom:15px;background-color:#FFFFDF;color:#555555;}
+.GuideMenuItem h4 {text-align:left;font-size:15px;font-weight:bold;color:#555555;}
+.GuideMenuItem p {font-size:13px;height:35px;}
+.GuideMenuImage{width:60px;height:60px; float: left;margin-right:5px;}
+
+.NavItem {}
+
+.NavItem a {display:inline-block;width:200px;height:40px;line-height:40px;text-align: center;font-size:18px;color:white;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #66B82F;margin-top:10px;}
+.NavItem a:hover {color:white;text-decoration: none;background-color:green;}
+.NavItem a.DownLoadBtn {background-color: #28B6F9;}
+.NavItem a.DownLoadBtn:hover {background-color: #2A9EB5;}
+
+.guideArea{margin:10px;}
+.guideArea p{padding-left:20px;margin:10px;}
+.guideArea h3{text-align:left;color:#005AD5;}
+.guideArea h4{padding-left:15px;color:red;}
+.guideArea a{display:inline-block;margin:0px;padding:0px;}
+.guideArea .psubStep {padding-left:26px;color:green;}
+
+.scheduleimg{margin-left:190px;}
+
+.ReleaseItem {font-size:13px;margin-bottom:30px;}
+.ReleaseItem li {margin-left:10px;margin-top:1px;margin-bottom:1px;}
+.ReleaseItem h2 {color:#4A4A93;font-size:16px;}
+#galleria{ width: 670px; height: 480px; margin-left:5px; }
+
+.subdivlink{background-color: #66CCFF;}
+
+.voteReseaon{margin:10px;}
+
+.trouble_shooting {margin:30px;}
+.trouble_shooting_link {background-color: #66CCFF;}
+
+.featureImage{padding-right: 15px; padding-bottom: 15px; width:60px;height:60px; float: left;}
+.featureItem {width:300px;float:left;margin:12px;height:80px;}
+.featureItem h3 {text-align:left;font-size:15px;}
+.featureItem p {font-size:13px;}
+
+.NavItemImage{display:inline;}
+
+.statItemM{margin:0px;border-top:solid 1px #BEBEBE;padding-left:70px;padding-right:70px;}
+.statTxtM {margin-top:8px;}
+.statTxtM h3 {text-align:left;font-size:20px;font-weight:normal;color:Green;}
+.statItem{width:880px;margin:0px;border-top:solid 1px #BEBEBE;padding-left:70px;padding-right:70px;}
+.statImage {padding-right:15px;padding-top:80px;}
+.statTxt {margin-top:8px;width:650px;height:200px;}
+.statTxt h3 {text-align:left;font-size:20px;font-weight:normal;color:black;}
+.odditem{background-color: #FAFCFF;}
+.statTxt  li {margin:3px;font-size:15px;padding:0px;}
+.statTxt li >a {BACKGROUND:transparent;color:black;font-size:15px;margin:0px;padding:0px;;height:25px;line-height: 25px;}
+.statTxt li >a:hover{color:green;BACKGROUND:transparent;}
+
+.FaqHeader {font-size:20px;color:#004B97;margin:10px;}
+.FaqText {margin:10px;}
+
+.MoneyBack{margin-top:50px;}
+.BuyImg {float:left;}
+.BuyTxt {width:700px;margin:20px;font-size:20px;}
+.BuyTxt2 {color:#6C6C6C}
+.BuyItem {margin-bottom:20px;color:#6C6C6C}
+.BuyItemTitle {color:green;font-weight:bold;}
+.highlight {font-weight:bold;color:#333333;}
+.GoToStore{margin-top:20px;margin-bottom:20px;padding-left:165px;}
+.GoToStore a{color:white;}
+.spanMargin {margin-left:210px}
+.buyNowBTN {display:inline-block;width:350px;height:45px;line-height:45px;text-align:center;font-size:20px;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #28B6F9;margin:10px;}
+.buyNowBTN:hover{background-color:#F79646;}
+
+.DownloadNowBTN {display:inline-block;width:300px;height:40px;line-height:40px;text-align:center;font-size:20px;;
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;background-color: #66B82F;;margin:10px;}
+.DownloadNowBTN:hover{background-color:#F79646;}
+
+.downItem {width:200px;height:180px;float:left;margin:12px;margin-bottom:10px;margin-right:80px;}
+.downItemImage {margin-left:40px;margin-top:10px;margin-bottom:10px;border:solid 0px green;}
+
+.ActBtn{width:350px;height:40px;background-color:#F79646;}
+
+.aboutItem {float:left;width:400px;margin:20px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+.aboutTxt{background-color:#F9BB5A;margin-bottom:20px;padding:18px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+.aboutskill{background-color: #D2DE96;padding:18px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+.aboutskill li {margin:0px;padding:5px;}
+.privacyHeader {font-size:20px;}
+
+.HttpErrorImg{padding-left:100px;float:left;width:100px;}
+.HttpErrorTxt{padding-top:60px;padding-right:350px;float:right;width:400px;font-size:25px;}
+
+.footer {margin: 30px auto;width: 960px; font-size:13px;}
+.footerLink {margin-left:300px;}
+.footer li {padding: 0px; margin-left: 1px;float: left;margin:10px;}
+.footer li > a {text-align: center;color:#2E64FE;}
+.footer li :hover {font-weight:bold;}
+.footerText {margin-left:250px;}

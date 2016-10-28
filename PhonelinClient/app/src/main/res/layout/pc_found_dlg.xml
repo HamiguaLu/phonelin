@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:layout_width="wrap_content"
+    Android:layout_height="wrap_content"
+    Android:background="#B7D396">
+
+    <TextView
+        Android:id="@+id/txtHostIP"
+	Android:layout_centerHorizontal="true"
+        Android:layout_height="wrap_content"
+        Android:layout_width="wrap_content"
+        Android:text="Connect to 192.168.1.12?"
+        Android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        Android:textStyle="bold"
+        Android:typeface="sans"
+        Android:singleLine="true"
+        Android:layout_alignTop="@+id/exitGameBackground"
+        Android:textColor="#000000" />
+
+    <ImageView
+        Android:id="@+id/exitGameBackground"
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_centerHorizontal="true"
+        Android:src="@drawable/bk_dlg"
+        Android:textAlignment="center" />
+
+    <Button
+        Android:id="@+id/btn_connect_2_pc"
+        Android:layout_width="wrap_content"
+        Android:layout_height="wrap_content"
+        Android:layout_alignBottom="@+id/exitGameBackground"
+        Android:layout_alignLeft="@+id/exitGameBackground"
+        Android:layout_marginBottom="30dp"
+        Android:layout_marginLeft="35dp"
+        Android:background="@drawable/botton_selector"
+        Android:text="Connect"
+        Android:textAlignment="gravity" />
+
+    <Button
+        Android:id="@+id/btn_connect_cancel"
+        Android:layout_width="wrap_content"
+        Android:layout_height="wrap_content"
+        Android:layout_alignBottom="@+id/exitGameBackground"
+        Android:layout_alignRight="@+id/exitGameBackground"
+        Android:layout_marginBottom="30dp"
+        Android:layout_marginRight="35dp"
+        Android:background="@drawable/botton_selector"
+        Android:text="Cancel" />
+
+
+</RelativeLayout>

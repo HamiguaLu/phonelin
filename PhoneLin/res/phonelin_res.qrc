@@ -1,0 +1,72 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/add_small.png</file>
+        <file>icon/android_offline.png</file>
+        <file>icon/android_online.png</file>
+        <file>icon/connect_samll.png</file>
+        <file>icon/del_small.png</file>
+        <file>icon/modify_small.png</file>
+        <file>icon/ok_samll.png</file>
+        <file>icon/setting_samll.png</file>
+        <file>icon/trash_small.png</file>
+        <file>icon/Zoom_In_small.net.png</file>
+        <file>icon/Zoom_Out_small.net.png</file>
+        <file>icon/incoming_call.png</file>
+        <file>icon/missed_call.png</file>
+        <file>icon/new_sms.png</file>
+        <file>icon/next.png</file>
+        <file>icon/outgoing_call.png</file>
+        <file>icon/pre.png</file>
+        <file>icon/rejected_call.png</file>
+        <file>icon/install_app.png</file>
+        <file>icon/uninstall_app.png</file>
+        <file>icon/refresh_app.png</file>
+        <file>icon/loading.gif</file>
+        <file>icon/icon.png</file>
+	<file>icon/send_sms.png</file>
+        <file>dejavu/DejaVuSans-Bold.ttf</file>
+        <file>dejavu/DejaVuSerif.ttf</file>
+        <file>dejavu/DejaVuSerif-Bold.ttf</file>
+        <file>dejavu/DejaVuSans.ttf</file>
+        <file>dejavu/DejaVuSansMono-Bold.ttf</file>
+        <file>dejavu/DejaVuSansMono.ttf</file>
+    </qresource>
+    <qresource prefix="/SSL">
+        <file>ssl/PlRootCAPrivate.pem</file>
+        <file>ssl/PlRootCA.cert</file>
+    </qresource>
+    <qresource prefix="/file_type">
+        <file>file_icon/doc.png</file>
+        <file>file_icon/folder.png</file>
+        <file>file_icon/music.png</file>
+        <file>file_icon/other-file.png</file>
+        <file>file_icon/photo.png</file>
+        <file>file_icon/video.png</file>
+        <file>file_icon/zip.png</file>
+        <file>file_icon/apk.png</file>
+        <file>file_icon/office.png</file>
+        <file>file_icon/file_add.png</file>
+        <file>file_icon/file_cut.png</file>
+        <file>file_icon/file_del.png</file>
+        <file>file_icon/file_download.png</file>
+        <file>file_icon/file_rename.png</file>
+        <file>file_icon/file_upload.png</file>
+        <file>file_icon/file_paste.png</file>
+        <file>file_icon/file_copy.png</file>
+        <file>file_icon/file_refresh.png</file>
+    </qresource>
+    <qresource prefix="/head">
+        <file>head/app-menu.png</file>
+        <file>head/app-menu-sel.png</file>
+        <file>head/call-menu.png</file>
+        <file>head/call-menu-sel.png</file>
+        <file>head/contact-menu.png</file>
+        <file>head/file-menu.png</file>
+        <file>head/file-menu-sel.png</file>
+        <file>head/sms-thread-menu.png</file>
+        <file>head/sms-thread-menu-sel.png</file>
+        <file>head/sys-info-menu.png</file>
+        <file>head/sys-info-menu-sel.png</file>
+        <file>head/contact-menu-sel.png</file>
+    </qresource>
+</RCC>
