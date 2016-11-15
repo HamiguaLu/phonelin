@@ -112,39 +112,3 @@ windows {
 
 
 
-
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/ -lQt5Widgets
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/libQt5Widgets.a
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/ -lQt5Gui
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/libQt5Gui.a
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/ -lQt5Network
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/libQt5Network.a
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/ -lQt5Sql
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/libQt5Sql.a
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/ -lQt5Core
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/libQt5Core.a
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/plugins/sqldrivers/ -lqsqlite
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/plugins/sqldrivers/libqsqlite.a
-
-
-QTPLUGIN     += qsqlite  xcb
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/plugins/platforms/ -lqxcb
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/plugins/platforms/libqxcb.a
-
-unix:!macx: LIBS += -L$$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/ -lqtpcre
-
-unix:!macx: PRE_TARGETDEPS += $$PWD/../../Qt5.7.0/5.7/Src/qtbase/lib/libqtpcre.a
